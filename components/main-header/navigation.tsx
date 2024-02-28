@@ -12,7 +12,7 @@ export default function Navigation() {
         <li>
           <Link
             href="/meals"
-            className={path.startsWith("meals") ? classes.active : undefined}
+            className={path.startsWith("/meals") ? classes.active : undefined}
           >
             Browse Meals
           </Link>
@@ -20,7 +20,7 @@ export default function Navigation() {
         <li>
           <Link
             href="/community"
-            className={path === "community" ? classes.active : undefined}
+            className={path === "/community" ? classes.active : undefined}
           >
             Foodies Community
           </Link>
